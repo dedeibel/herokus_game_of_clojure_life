@@ -1,1 +1,1 @@
-web: lein run -m herokutest.web
+web: lein run -m herokutest.web $PORT
