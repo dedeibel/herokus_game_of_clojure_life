@@ -1,0 +1,29 @@
+
+          README
+
+clojure heroku game of life
+
+----------
+
+Game of life app to be run on heroku. Just
+a simple demo app.
+
+Prereq: leiningen https://github.com/technomancy/leiningen
+
+
+To run locally, simple run
+
+$ lein run -m herokutest.web 5000
+
+or
+
+$ foreman start
+
+And visit http://localhost:5000
+
+
+For more info see:
+
+http://devcenter.heroku.com/articles/clojure
+
+
